@@ -1,4 +1,4 @@
-# <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/video.svg' card_color='#DB4040' width='50' height='50' style='vertical-align:bottom'/> Youtube Player
+# <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/video.svg' card_color='#DB4040' width='50' height='50' style='vertical-align:bottom'/> Peertube Skill
 Peertube Skill for Browsing Peertube instances & Streaming Peertube Videos
 
 ## About
