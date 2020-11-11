@@ -1,0 +1,7 @@
+requests>=1.1
+youtube-dl
+json_database
+timeago
+python-dateutil
+xdg
+git+https://framagit.org/framasoft/peertube/clients/python.git

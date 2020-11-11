@@ -1,0 +1,6 @@
+{
+    "android_icon": "/res/icon/peertube-skill.png",
+    "android_name": "Peertube",
+    "android_handler": "peertube-skill.aiix.home"
+}
+ 
