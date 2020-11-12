@@ -275,7 +275,7 @@ Mycroft.Delegate {
                 property string catName: "Gaming"
             }
             
-            CategoryBoxView  {
+            CategoryBoxViewSearch {
                 id: searchCatView
                 property string catName: "Search Results"
             }

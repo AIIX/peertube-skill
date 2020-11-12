@@ -1,0 +1,23 @@
+{
+    "name": "Peertube Skill",
+    "skillname": "peertube-skill",
+    "authorname": "aiix",
+    "foldername": "",
+    "url": "https://github.com/AIIX/peertube-skill",
+    "branch": "main",
+    "warning": "",
+    "desktopFile": true,
+    "systemDeps": false,
+    "platforms": [
+        "arm",
+        "arm64",
+        "i386",
+        "x86_64",
+        "ia64"
+    ],
+    "examples": [
+        "Show me what's trending on Peertube",
+        "Peertube Metallica",
+        "Search Peertube for Guns & Roses"
+    ]
+}

@@ -4,6 +4,7 @@ PeerTubeHomePage 1.0 PeerTubeHomePage.qml
 PeerTubePlayer 1.0 PeerTubePlayer.qml
 PeerTubeSettings 1.0 PeerTubeSettings.qml
 CategoryBoxView 1.0 CategoryBoxView.qml
+CategoryBoxViewSearch 1.0 CategoryBoxViewSearch.qml
 SeekControl 1.0 SeekControl.qml
 HighlightType 1.0 HighlightType.qml
  
