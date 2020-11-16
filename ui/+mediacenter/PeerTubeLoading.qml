@@ -42,7 +42,7 @@ Mycroft.Delegate {
                 indeterminate: true
                 
                 background: Rectangle {
-                    color: Qt.rgba(Kirigami.theme.backgroundColor.r, Kirigami.theme.backgroundColor.g, Kirigami.theme.backgroundColor.b, 0.5)
+                    color: Qt.rgba(0, 0, 0, 0.7)
                     radius: 3
                 }
             }
