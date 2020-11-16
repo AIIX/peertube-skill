@@ -115,7 +115,7 @@ class PeerTubeSkill(MycroftSkill):
             if video_stream_link == False:
                 # Try getting the static link manually from embedded object
                 video_stream_link = str("https://" + video_idx0_host + "/static/webseed/" 
-                                        + videos_matched['data'][0]["uuid"] + "-480.mp4")
+                                        + message.data["uuid"] + "-480.mp4")
 
         except ApiException as e:
             self.speak_dialog("search_failed")
