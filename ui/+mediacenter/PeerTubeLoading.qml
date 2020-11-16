@@ -38,8 +38,13 @@ Mycroft.Delegate {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.margins: Kirigami.Units.gridUnit
-                height: Kirigami.Units.gridUnit * 3
+                height: Kirigami.Units.gridUnit * 2
                 indeterminate: true
+                
+                background: Rectangle {
+                    color: Qt.rgba(Kirigami.theme.backgroundColor.r, Kirigami.theme.backgroundColor.g, Kirigami.theme.backgroundColor.b, 0.5)
+                    radius: 3
+                }
             }
         }
     }

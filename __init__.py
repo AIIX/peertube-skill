@@ -49,8 +49,7 @@ class PeerTubeSkill(MycroftSkill):
         self.gui.register_handler('PeerTube.ConfigureHost', self.peer_configure_host)
     
     @intent_file_handler("PtOpenApp.intent")
-    def display_homepage(self, message):
-        self.speak(self.configured_host) 
+    def display_homepage(self, message): 
         self.gui.clear()
         self.enclosure.display_manager.remove_active()
         self.gui.show_page("PeerTubeLoading.qml", override_idle=True, override_animations=True)
