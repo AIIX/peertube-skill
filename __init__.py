@@ -51,7 +51,6 @@ class PeerTubeSkill(MycroftSkill):
     @intent_file_handler("PtOpenApp.intent")
     def display_homepage(self, message): 
         self.gui.clear()
-        self.enclosure.display_manager.remove_active()
         self.gui.show_page("PeerTubeLoading.qml", override_idle=True, override_animations=True)
         self.build_categories()
     
